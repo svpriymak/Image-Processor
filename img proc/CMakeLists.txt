@@ -1,0 +1,28 @@
+add_executable(
+        image_processor
+        image_processor.cpp
+        filters/Grayscale.cpp
+        filters/Grayscale.h
+        filters/Negative.cpp
+        filters/Negative.h
+        filters/Crop.cpp
+        filters/Crop.h
+        filters/Blur.cpp
+        filters/Blur.h
+        filters/Sharpening.cpp
+        filters/Sharpening.h
+        filters/EdgeDetection.cpp
+        filters/EdgeDetection.h
+        filters/Custom.cpp
+        filters/Custom.h
+        Parser.cpp
+        Parser.h
+        RGB.cpp
+        RGB.h
+        BMP.cpp
+        BMP.h
+        Filter.cpp
+        Filter.h
+        Image.cpp
+        Image.h
+)
